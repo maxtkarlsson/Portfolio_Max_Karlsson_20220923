@@ -1,6 +1,45 @@
+/*Temp box class */
 .box {
   background-color: lightblue;
   border: 1px solid blue;
   min-height: 50px;
   font-size: 2rem;
+}
+
+/*Body styling*/
+body {
+  background-color: #03071e;
+}
+
+/*Navigation styling*/
+ul {
+  display: block;
+  list-style-type: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1em;
+  border-left: 1px solid #ffba08;
+}
+
+#ul-footer {
+  display: block;
+  list-style-type: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-right: 1px solid #ffba08;
+  border-left: none;
+}
+
+ul li {
+  color: #668586;
+}
+
+ul li:hover {
+  color: #ffba08;
 }

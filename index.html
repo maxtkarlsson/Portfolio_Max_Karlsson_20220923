@@ -25,49 +25,89 @@
     <link href="css/index.css" rel="stylesheet" />
   </head>
   <body>
-    <section class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-2 offset-sm-0 offset-md-1">
-          <div class="box">navigering</div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 col-md offset-sm-0 offset-md-2">
-          <div class="box">Namn</div>
-        </div>
-        <div class="col-sm-12 col-md">
-          <div class="box">Role</div>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-sm-12 col-md-3">
-          <div class="box">Brödtext</div>
-        </div>
-        <div class="col-sm-12 col-md-3 d-sm-none d-md-block">
-          <div class="box">Bild</div>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-sm-12 col-md-4"><div class="box">Skill 1</div></div>
-        <div class="col-sm-12 col-md-4"><div class="box">Skill 2</div></div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-sm-12 col-md-4"><div class="box">Skill 3</div></div>
-        <div class="col-sm-12 col-md-4"><div class="box">Skill 4</div></div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-sm-12 col-md-5"><div class="box">Projekt 1</div></div>
-        <div class="col-sm-12 col-md-5"><div class="box">Projekt 2</div></div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-sm-12 col-md-5"><div class="box">Projekt 3</div></div>
-        <div class="col-sm-12 col-md-5"><div class="box">Projekt 4</div></div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 col-md-2 offset-sm-0 offset-md-9">
-          <div class="box">Footer</div>
-        </div>
-      </div>
-    </section>
+    <main class="container-fluid">
+      <section class="row">
+        <aside
+          class="d-flex justify-content-center justify-content-md-start col-12 col-md-2 offset-0 offset-md-1"
+        >
+          <nav>
+            <ul>
+              <li>About me</li>
+              <li>Skills</li>
+              <li>Projects</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
+        </aside>
+      </section>
+      <section class="row">
+        <article
+          class="d-flex justify-content-center justify-content-md-start col-sm-12 col-md offset-0 offset-md-2"
+        >
+          <h1>Max Karlsson</h1>
+        </article>
+        <article
+          class="d-flex justify-content-center justify-content-md-start col-sm-12 col-md"
+        >
+          <h2>Front End Developer</h2>
+        </article>
+      </section>
+      <section class="row d-flex justify-content-center">
+        <article class="col-sm-12 col-md-3">
+          <p class="text-center text-md-end">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            cupiditate ducimus facilis voluptates vitae vel iste culpa quam
+            temporibus perferendis commodi laborum earum provident, cum
+            possimus. Quam molestiae sit a!
+          </p>
+        </article>
+        <article class="col-sm-12 col-md-3 d-none d-md-block">
+          <img src="assets/Image_me.png" alt="A picture of me" />
+        </article>
+      </section>
+      <section class="row">
+        <aside
+          class="d-flex justify-content-center justify-content-md-end col-sm-12 col-md-2 offset-sm-0 offset-md-9"
+        >
+          <ul id="ul-footer">
+            <li>@LinkedIn</li>
+            <li>@Twitter</li>
+            <li>@Facebook</li>
+          </ul>
+        </aside>
+      </section>
+      <section class="row d-flex justify-content-center">
+        <article class="col-sm-12 col-md-4">
+          <div class="box">Skill 1</div>
+        </article>
+        <article class="col-sm-12 col-md-4">
+          <div class="box">Skill 2</div>
+        </article>
+      </section>
+      <section class="row d-flex justify-content-center">
+        <article class="col-sm-12 col-md-4">
+          <div class="box">Skill 3</div>
+        </article>
+        <article class="col-sm-12 col-md-4">
+          <div class="box">Skill 4</div>
+        </article>
+      </section>
+      <section class="row d-flex justify-content-center">
+        <article class="col-sm-12 col-md-5">
+          <div class="box">Projekt 1</div>
+        </article>
+        <article class="col-sm-12 col-md-5">
+          <div class="box">Projekt 2</div>
+        </article>
+      </section>
+      <section class="row d-flex justify-content-center">
+        <article class="col-sm-12 col-md-5">
+          <div class="box">Projekt 3</div>
+        </article>
+        <article class="col-sm-12 col-md-5">
+          <div class="box">Projekt 4</div>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
